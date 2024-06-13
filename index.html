@@ -28,6 +28,7 @@
                 ash: '#13131899',
                 borderclr: '#13131833',
                 bgclr: '#BCEE6D1A',
+                trp: '#13131805'
               }
             }
           }
@@ -436,9 +437,9 @@
             <p class="pb-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
           </div>
 
-          <div class="flex gap-6">
+          <div class="flex flex-col lg:flex-row gap-6">
             <div class="border-2 border-borderclr bg-white rounded-2xl p-8 mb-2 ">
-              <div class=" border-borderclr bg-bgclr rounded-2xl p-8 mb-2 space-y-3 w-[370px]">
+              <div class=" border-borderclr bg-bgclr rounded-2xl lg:p-8 mb-2 space-y-3 lg:w-[370px]">
                 <img src="Images/Group 1171275317.png" alt="">
                 <p>Phone Number :</p>
                 <h5>(+62) 123-321-543</h5>
@@ -455,32 +456,45 @@
               </div>
             </div>
   
-            <div>
-              <div class="grid lg:grid-cols-2 gap-6 spacy-5">
+            <div class="mx-auto">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 spacy-5">
                 <div>
                   <h4 class="font-bold text-lg">Your Name</h4>
-                  <input type="text" placeholder="Enter your full name" class="input input-bordered w-full min-w-[324px] min-h-[65px] bg-bgclr border-none rounded-xl" />
+                  <input type="text" placeholder="Enter your full name" class="input input-bordered w-full lg:min-w-[324px] min-h-[65px] bg-trp border-none rounded-xl" />
                 </div>
                 <div>
                   <h4 class="font-bold text-lg">Your Email</h4>
-                  <input type="text" placeholder="Enter your full email" class="input input-bordered w-full min-w-[324px] min-h-[65px] bg-bgclr border-none rounded-xl" />
+                  <input type="text" placeholder="Enter your full email" class="input input-bordered w-full min-w-[324px] min-h-[65px] bg-trp border-none rounded-xl" />
                 </div>
                 <div>
                   <h4 class="font-bold text-lg">Subject</h4>
-                  <input type="text" placeholder="Enter your subject" class="input input-bordered w-full min-w-[324px] min-h-[65px] bg-bgclr border-none rounded-xl" />
+                  <input type="text" placeholder="Enter your subject" class="input input-bordered w-full min-w-[324px] min-h-[65px] bg-trp border-none rounded-xl" />
                 </div>
                 <div>
                   <h4 class="font-bold text-lg">Phone Number</h4>
-                  <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full min-w-[324px] min-h-[65px] bg-bgclr border-none rounded-xl" />
+                  <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full min-w-[324px] min-h-[65px] bg-trp border-none rounded-xl" />
                 </div>
               </div>
               <div class="space-y-5">
                 <h4 class="font-bold text-lg mt-5">Message</h4>
-                <textarea class="textarea textarea-bordered min-w-[672px] min-h-[370px] bg-bgclr border-none rounded-xl" placeholder="Enter your message here..."></textarea> 
+                <textarea class="textarea textarea-bordered min-w-[335px] min-h-[200px] lg:min-w-[672px] lg:min-h-[370px] bg-trp border-none rounded-xl" placeholder="Enter your message here..."></textarea> 
               </div>
             </div>
           </div>
         </section>
+
+        <!-- Social media icons -->
+         <section class=" mt-8 pt-10 mb-5 max-w-[335px] lg:max-w-6xl mx-auto bg-trp rounded-2xl">
+          <div class="text-center">
+            <h3 class="font-extrabold text-2xl">Social Media</h3>
+          </div>
+          <div class="flex gap-5 flex-row justify-center mt-5">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+          </div>
+         </section>
     </main>
 </body>
 </html>
